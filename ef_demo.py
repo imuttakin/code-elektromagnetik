@@ -38,7 +38,7 @@ def dipole(q1, q2, a):
     """Function: dipole()
     Plot the electric field lines of two point charges seperated by a distance 2*a"""
 #    plt.figure(figsize=(20, 14))
-    plt.figure(figsize=(5, 3.5))
+#    plt.figure(figsize=(5, 3.5))
     xlim = (a+2); ylim = (a+2)
     plt.axes = plt.gca()
     plt.axes.set_xlim([-xlim,xlim])
@@ -64,7 +64,7 @@ def dipole(q1, q2, a):
 
 def capacitor(a):
 #    plt.figure(figsize=(20, 14), dpi=80)
-    plt.figure(figsize=(5, 3.5))
+#    plt.figure(figsize=(5, 3.5))
     xlim = (a+2); ylim = (a+2)
     plt.axes = plt.gca()
     plt.axes.set_xlim([-xlim,xlim])
